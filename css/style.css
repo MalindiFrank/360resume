@@ -6,11 +6,11 @@ main {
 #title {
   font-size: x-large;
   padding-bottom: 1rem;
-  color: rgb(95, 101, 7);
+  color: rgb(46, 46, 45);
 }
 
 h3 {
-  color: rgb(111, 119, 9);
+  color: rgb(0, 0, 0);
   padding-top: 1rem;
 }
 
@@ -20,25 +20,25 @@ div {
 
 li {
   list-style-position: inside;
-  color: rgb(99, 102, 61);
+  color: rgb(42, 43, 38);
 }
 
 .duties {
-  padding-top: .2rem;
+  padding-top: 0.2rem;
 }
 
 .company,
 .address {
-  color: rgb(99, 102, 61);
+  color: rgb(51, 51, 44);
 }
 
 button {
-  padding: .5rem;
+  padding: 0.5rem;
   cursor: pointer;
   margin-top: 1rem;
   background: none;
   border-radius: 1rem;
-  border: solid .2rem rgb(95, 101, 7);
+  border: solid 0.2rem rgb(61, 61, 59);
 }
 
 #download-btn {
@@ -47,17 +47,16 @@ button {
   left: 80%;
   margin: 0;
   color: #ffffff;
-  background: rgb(95, 101, 7);
+  background: rgb(0, 0, 0);
 }
 
-#pop-up-msg {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  padding: 1rem;
-  color: #ffffff;
-  font-size: larger;
-  border-radius: 1rem;
-  transform: translate(-50%, -50%);
-  background: rgb(95, 94, 94);
+@media (max-width: 665px) {
+  main {
+    margin: 2rem;
+    padding: 1rem;
+  }
+
+  #download-btn {
+    left: 70%;
+  }
 }
