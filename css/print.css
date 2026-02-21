@@ -6,8 +6,11 @@
 }
 
 @media print {
+  * {
+    margin: 0;
+  }
   main {
-    margin-inline: 1em;
+    margin-inline: .5em;
   }
 
   button {

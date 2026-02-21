@@ -1,11 +1,8 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
 main {
-    padding: 1em;
+    padding: 1em 1.2em;
     display: grid;
     gap: 1rem;
     list-style-position: inside;
@@ -70,6 +67,7 @@ button {
 
   #download-btn {
     left: 70%;
+    padding: 2rem 3rem;
   }
 }
 
