@@ -1,3 +1,7 @@
+# ATS Resume
+
+![Project Screenshot](images/pdf-shot.png)
+
 # 360 ATS Resume
 
 A **fast** and **easy** solution for `creating` a professional `ATS Resume` in `under 5 minutes`. With a predefined standard ATS template and placeholder text, you can craft a resume without hassle. Access and edit your resume `on the go`, using just your `smartphone`. `No signups`  

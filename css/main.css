@@ -43,20 +43,22 @@ span {
 }
 
 button {
-  padding: 0.3rem;
-  cursor: pointer;
-  margin-top: 1rem;
-  background: none;
-  border: solid 1.9px rgb(61, 61, 59);
+    padding: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    background: none;
+    border: solid 1.9px rgb(61, 61, 59);
 }
 
 #download-btn {
-  position: fixed;
-  top: 90%;
-  left: 80%;
-  margin: 0;
-  color: #ffffff;
-  background: rgb(0, 0, 0);
+    position: fixed;
+    top: 90%;
+    left: 80%;
+    margin: 0;
+    color: #ffffff;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 1rem 1.5rem;
 }
 
 @media (max-width: 665px) {
@@ -67,8 +69,6 @@ button {
 
   #download-btn {
     left: 70%;
-    font-size: 18px;
-    padding: 1.5rem 2rem;
   }
 }
 
