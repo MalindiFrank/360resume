@@ -39,7 +39,7 @@ span {
 .contact {
     display: flex;
     gap: .25em;
-    padding: 0;
+    padding: 0 .5em 0 0;
 }
 
 button {
@@ -67,7 +67,8 @@ button {
 
   #download-btn {
     left: 70%;
-    padding: 2rem 3rem;
+    font-size: 18px;
+    padding: 1.5rem 2rem;
   }
 }
 

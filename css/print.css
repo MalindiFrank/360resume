@@ -6,10 +6,8 @@
 }
 
 @media print {
-  * {
-    margin: 0;
-  }
   main {
+    margin-block: .5em;
     margin-inline: .5em;
   }
 

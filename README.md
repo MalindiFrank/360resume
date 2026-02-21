@@ -12,7 +12,7 @@ A **fast** and **easy** solution for `creating` a professional `ATS Resume` in `
 ## Getting Started with using 360 - ATS Resume
 
 1. **Edit Text**: Click on any text to edit or clear it. Replace the placeholder text with your own information.
-2. **Save as PDF**: Click the download button to `Save as Pdf`, a print dialog will show up where you can save your resume. Additional you can also adjust layout settings such as page margins.
+2. **Save as PDF**: Click the download button to `Save as Pdf`, a print dialog will show up where you can save your resume. Additional you can adjust layout settings such as page margins, `set margins to 'none' or '0'`.
 3. **Live Preview PDF**: The print dialog provides a preview of your resume in PDF format before saving.
 4. **Add Content**: Click the "Add button" to add additional pre-formatted sections to your ATS Resume.  
 [Take a Quick Look!](https://360resume.netlify.app/)
