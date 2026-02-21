@@ -7,11 +7,10 @@
 
 @media print {
   main {
-    margin: 3rem;
+    margin-inline: 1em;
   }
 
-  button,
-  #pop-up-msg {
+  button {
     display: none;
   }
 }

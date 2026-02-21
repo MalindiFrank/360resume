@@ -1,98 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="manifest" href="/manifest.webmanifest" />
-  <link rel="stylesheet" href="./css/animation.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/print.css">
-  <script src="app.js" defer></script>
-  <title>360Resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/print.css">
+    <script src="main.js" defer></script>
+    <title>ATS-Resume</title>
 </head>
-
-<body>
-  <main contenteditable="">
-    <header>
-      <p id="title">YOUR FULLNAME HERE</p>
-      <div class="contacts">
-        <p class="phone">012 345 6789</p>
-        <p class="email">your.email.example.com</p>
-        <p class="address">Suburb, City, Postal code</p>
-      </div>
-    </header>
+<body contenteditable="true">
+    <main>   
+    <h1>Thembalakhe Malindi</h1>
+    <h2>Software Engineer Graduate (2026)</h2>
+    <section class="contact">
+        <p>Johannesburg, Gauteng,</p>
+        <p>070-766-1292,</p>
+        <p>t.malindi.work@gmail.com,</p>
+        <p>LinkedIn: linkedin.com/in/tmalindi,</p>
+        <p>GitHub: github.com/MalindiFrank</p>
+    </section>
     <section class="summary">
-      <h3>Summary</h3>
-      <p>
-        Tell us about yourself, highlighting your career aspirations and skills that are
-        relevant to the job you're applying for. Use keywords from the job description to match requirements.
-        Mention your most notable accomplishments, relevant certifications, or qualifications. Click on any text to start editing.
-      </p>
+        <h3>Professional Summary</h3>
+        <p>Graduate Software Engineer (2026) with a focus on backend systems, APIs, and integration patterns. Experienced in building and debugging API-driven applications, working with service contracts, and improving maintainability through clear system design. Java-certified with full-stack exposure, Docker familiarity, and experience in Agile environments, mentoring, and technical support. Seeking an entry-level role to learn and grow within a production engineering team.</p>
     </section>
-    <section>
-      <h3>Education</h3>
-      <div class="education">
-        <p class="school-name">Lakepark High School</p>
-        <p>
-          <span class="date">2024</span> |
-          <span class="qualification">Matric</span> -
-          <span class="study">Grade 12</span>
-        </p></br>
-        <p class="school-name">Lakepark College</p>
-        <p>
-          <span class="date">2024</span> |
-          <span class="qualification">Diploma</span> -
-          <span class="study">Bio-Radiology</span>
-        </p>
-      </div>
-      <button class="add-btn" id="education" contenteditable="false">Add Education</button>
+    <section class="skills add">
+        <h3>Skills Set</h3>
+        <p><span>Programming Languages:</span> Java, Python, TypeScript, SQL</p>
+        <p><span>Backend & APIs:</span> Spring Boot, REST APIs, OpenAPI 3.x / Swagger, Client–Server Architecture</p>
+        <p><span>Frontend:</span> Frontend: Angular, Svelte</p>
+        <p><span>Databases:</span> Databases: PostgreSQL, Firebase Firestore</p>
+        <p><span>Cloud & DevOps</span> AWS ( IAM, EC2, S3 ), Google Cloud Platform (Cloud Console, OAuth 2.0, APIs), Docker, CI/CD fundamentals</p>
+        <p><span>Build & Tooling:</span>  Apache Maven, Git, GitHub, GitLab</p>
+        <p></p>
     </section>
-    <section>
-      <h3>Experience</h3>
-      <div class="experience">
-        <p>
-          <span class="title">Job title</span> |
-          <span class="date">start date - end date</span>
-        </p>
-        <p>
-          <span class="company">Company Name</span> |
-          <span class="address"> Suburb, City, Postal code</span>
-        </p>
-        <p class="duties">
-          Provide the job duties and/or accomplishments for example (Welcome and serve customers with friendliness, capture customer details
-          and information on the system.). Click on this text to start editing.
-        </p>
-      </div>
-      <button class="add-btn" id="experience" contenteditable="false">Add Experience</button>
+    <section class="projects add">
+        <h3>Projects</h3>
+        <div class="project-item">
+            <h4>UniVaal API – Java-based e-commerce backend </h4>
+            <a href=" https://github.com/MalindiFrank/univaal-api">Github: <span class="project-link">https://github.com/MalindiFrank/univaal-api</span></a>
+            <p>Designing using contract-first REST APIs with OpenAPI, featuring clear domain boundaries, structured data flow, and versioned endpoints for products, orders, payments, and admin operations; integrated PostgreSQL persistence and refined schemas to support maintainable system integration.</p>
+            <p>Tech: Java, Spring Boot, PostgreSQL, REST, OpenAPI</p>
+        </div>
+        <div class="project-item">
+            <h4>4Grid — Distributed Load Shedding Management System</h4>
+             <a href="http://" target="_blank" rel="noopener noreferrer">GitHub: <span class="project-link">https://github.com/MalindiFrank/4Grid</span></a>
+            <p>Developed a Java-based distributed system for tracking load-shedding stages, schedules, and alerts. Emphasized reliability, message-driven architecture, and system integration using queues for asynchronous notifications. Real-time notifications using ntfy android app.</p>
+            <p>Tech: Java, REST, Message Queues, ActiveMQ, JavaScript, Thymeleaf, ntfy app</p>
+        </div>
     </section>
-    <section>
-      <h3>Skills</h3>
-      <ul class="skills">
-        <li>Teamwork and collaboration</li>
-        <li>Good communication skills</li>
-        <li>Computer literate</li>
-        <li>Proficiency in design and user experience</li> </br>
-        <li>Click on any skill text to change or remove it.</li>
-      </ul>
-      <button class="add-btn" id="skills" contenteditable="false">Add Skill</button>
+    <section class="work add">
+        <h3>Work Experience</h3>
+        <div class="work-item">
+            <h4>Help Desk Technical Support — Plug N Play, Inc. | Feb 2021 – Dec 2021</h4>
+            <p>Resolved hardware, software, and system issues. Developed strong diagnostic, documentation, and client-communication skills</p>
+        </div>
     </section>
-    <section>
-      <h3>References</h3>
-      <div class="reference">
-        <p>
-          <span class="position">Job title</span> |
-          <span class="fullname">Name of employer</span>
-        </p>
-        <p class="company">Company Name</p>
-        <p class="contacts">012 345 6789</p>
-      </div>
-      <button class="add-btn" id="reference" contenteditable="false">Add Reference</button>
+    <section class="volunteer add">
+        <h3>Volunteer Work</h3>
+        <div class="volunteer-item">
+            <h4>Tech Mentor — WeThinkCode_ | Sep 2025 – Present</h4>
+            <p>Mentored students on software engineering fundamentals and debugging techniques. Reviewed projects and provided structured technical feedback. Supported best practices in clean code and re-usability</p>
+        </div>
+        <div class="volunteer-item">
+            <h4>Bootcamp Reviewer & Mentor — WeThinkCode_ | Feb 2025 – Mar 2025</h4>
+            <p>Evaluated student submissions and guided improvements. Reinforced object-oriented design and problem-solving skills</p>
+        </div>
     </section>
-  </main>
-  <div>
+    <section class="education add">
+        <h3>Education</h3>
+        <div class="education-item">
+            <p>Diploma in Software Engineering | WeThinkCode_ — Graduating 2026</p>
+        </div>
+    </section>
+    <section class="certificates add">
+        <h3>Certifications</h3>
+        <ul>
+            <li>Microsoft Azure Fundamental Cloud Concepts — Ikamva Digital (2026)</li>
+            <li>GenAI Course Certificate — WeThinkCode_ (2025)</li>
+            <li>Learn Java Certificate — IBM (2025)</li>
+            <li>Design Thinking — Simplilearn (2024)</li>
+        </ul>
+    </section>
+</main>
+<div>
     <button id="download-btn" onclick="window.print();" contenteditable="false">Download</button>
-  </div>
+</div>
 </body>
-
 </html>
