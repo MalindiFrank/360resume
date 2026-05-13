@@ -2,15 +2,17 @@
 
 ![Project Screenshot](images/pdf-shot.png)
 
-# 360 ATS Resume Builder
+# 360 ATS Resume Builder 
 
-A **fast** and **easy** solution for `creating` a professional `ATS Resume` in `under 5 minutes`. With a predefined standard ATS template and placeholder text, you can craft a resume without hassle. Access and edit your resume `on the go`, using just your `smartphone`. `No signups`  
+Click on the existing template and start editing.
+
+A **fast** and **easy** solution for `creating` a professional `ATS Resume` in `under 5 minutes`. Without hassle edit your resume `on the go`, using just your `smartphone`. `No signups`  
 [Try Me!](https://360resume.netlify.app/)
 
 ## Features
 
 - **Instantly Save as PDF**: Click the `Download` button to save your resume as a PDF.
-- **Simply Click-to-Edit**: Easily `modify` or clear `any text` by clicking on it.
+- **Simply Click-to-Edit**: Easily `change` or clear `any text` by clicking on it.
 - **Preview PDF**: Review your resume in `PDF format` before saving.
 
 ## Getting Started 
