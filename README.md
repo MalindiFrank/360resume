@@ -6,7 +6,7 @@
 
 ## Why it works?
 - No signs, no distractions, no nonsense.
-- You make changes on the ATS template, no going back and fourth.
+- You make changes on the ATS template, no going back and forth.
 - Placeholders are there to guide you on how to structure things.
 - Everything is editable, simply click on what you want to change or remove it.
 - It works perfectly on your smartphone.
