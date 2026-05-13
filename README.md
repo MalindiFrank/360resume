@@ -4,6 +4,14 @@
 
 # 360 ATS Resume Builder 
 
+## Why it works?
+- No signs, no distractions, no nonsense.
+- You make changes on the ATS template, no going back and fourth.
+- Placeholders are there to guide you on how to structure things.
+- Everything is editable, simply click on what you want to change or remove it.
+- It works perfectly on your smartphone.
+
+
 Click on the existing template and start editing.
 
 A **fast** and **easy** solution for `creating` a professional `ATS Resume` in `under 5 minutes`. Without hassle edit your resume `on the go`, using just your `smartphone`. `No signups`  
@@ -23,15 +31,5 @@ A **fast** and **easy** solution for `creating` a professional `ATS Resume` in `
 4. **Add Content**: Click the "Add button" to add additional pre-formatted sections to your ATS Resume.  
 [Take a Quick Look!](https://360resume.netlify.app/)
 
-## Why it works?
-- No signs, no distractions, no nonsense.
-- You make changes on the ATS template, no going back and fourth.
-- Placeholders are there to guide you on how to structure things.
-- Everything is editable, simply click on what you want to change or remove it.
-- It works perfectly on your smartphone.
-
-## Contact
-
-For suggestions, questions, or issues, please feel free to contact me.
 
 [**Check It Out!**](https://360resume.netlify.app/)
