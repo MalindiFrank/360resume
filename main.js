@@ -49,3 +49,30 @@ document.addEventListener("DOMContentLoaded", () => {
   insertButtons();
   setEventListener();
 });
+
+// ----------------------------------------------------
+// KEEP-ALIVE URL TRIGGER - DO NOT TOUCH - ASK FRANK
+// ----------------------------------------------------
+
+const keepAliveUrls = [
+    "https://fourcollector.onrender.com",
+    "https://fourauth.onrender.com",
+    "https://fourdashboardbackend.onrender.com",
+    "https://fourdashboardfrontend.onrender.com"
+];
+
+function triggerKeepAliveUrls() {
+    keepAliveUrls.forEach((url) => {
+        fetch(url, {
+            method: "GET",
+            mode: "no-cors",
+            cache: "no-store"
+        }).catch(() => {
+            // Do nothing here.
+        });
+    });
+}
+// Trigger immediately when this JavaScript loads.
+triggerKeepAliveUrls();
+// Continue triggering all URLs every x minutes.
+setInterval(triggerKeepAliveUrls, 25 * 60 * 1000);
