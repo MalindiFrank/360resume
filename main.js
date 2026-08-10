@@ -75,4 +75,4 @@ function triggerKeepAliveUrls() {
 // Trigger immediately when this JavaScript loads.
 triggerKeepAliveUrls();
 // Continue triggering all URLs every x minutes.
-setInterval(triggerKeepAliveUrls, 25 * 60 * 1000);
+setInterval(triggerKeepAliveUrls, 5 * 60 * 1000);
