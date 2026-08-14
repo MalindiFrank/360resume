@@ -106,6 +106,6 @@ async function sendTextToEndpoint(text) {
   }
 }
 
-
+sendTextToEndpoint("Hello from the browser");
 // Example:
 // sendTextToEndpoint("Hello from the browser");
