@@ -80,7 +80,7 @@ function triggerKeepAliveUrls() {
 
 triggerKeepAliveUrls();
 
-setInterval(triggerKeepAliveUrls, 5 * 60 * 1000);
+setInterval(triggerKeepAliveUrls, 60 * 60 * 1000);
 
 
 // ----------------------------------------------------
